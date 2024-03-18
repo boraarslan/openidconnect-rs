@@ -1,6 +1,6 @@
 [package]
 name = "openidconnect"
-version = "4.0.0-alpha.1"
+version = "3.5.0"
 authors = ["David A. Ramos <ramos@cs.stanford.edu>"]
 description = "OpenID Connect library"
 keywords = ["openid", "oidc", "oauth2", "authentication", "auth"]
@@ -68,7 +68,7 @@ serde_with = "3"
 serde-value = "0.7"
 url = { version = "2.4", features = ["serde"] }
 subtle = "2.4"
-ed25519-dalek = { version = "2.0.0", features = ["pem"] }
+ed25519-dalek = { version = "2.1.1", features = ["pem"] }
 
 [dev-dependencies]
 color-backtrace = { version = "0.5" }
